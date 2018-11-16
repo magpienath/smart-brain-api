@@ -12,9 +12,9 @@ const image = require('./controllers/image.js');
 const db = knex({
     client: 'pg',
     connection: {
-        host : '127.0.0.1',
+        host : 'postgresql-amorphous-95918',
         user : 'nathangardner',
-        password : 'Chintzi11',
+        password : '',
         database : 'smart-brain',
     }
 });
